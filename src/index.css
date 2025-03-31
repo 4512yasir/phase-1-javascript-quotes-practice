@@ -1,3 +1,31 @@
-#quote-list {
-  padding: 20px;
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.quote-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+blockquote {
+  margin: 0;
+  padding: 10px;
+  border-left: 5px solid #007bff;
+}
+
+.btn-danger, .btn-success {
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
